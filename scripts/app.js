@@ -59,5 +59,18 @@ function calcArray(arr, funct){
 function manageArr(el){
     return 2018 - el;
 }
-result = calcArray(ages, manageArr);
+
+function isFullAge(el){
+    return 2018 - el >= 18
+}
+function heartRate(el){
+    return Math.round(206.9 - (0.67 * (2018-el) ));
+}
+var age = calcArray(ages, manageArr);
+var result = calcArray(ages, isFullAge);
+var rate = calcArray(ages, heartRate);
+
 console.log(result);
+console.log(age);
+console.log(rate)
+
