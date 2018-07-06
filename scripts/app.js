@@ -1,4 +1,4 @@
-/*var Azim = {
+var Azim = {
     name: 'Azim',
     yearOfBirth: 1999,
     job: 'programmer'
@@ -46,7 +46,7 @@ obj1.name = 'Shahzod';
 
 
 console.log(obj1.name , obj2.name , obj1.age, obj2.age);
-*/
+
 var ages = [1999,2001,2004,1996,1993];
 
 function calcArray(arr, funct){
