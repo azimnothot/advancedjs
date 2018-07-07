@@ -80,4 +80,11 @@ function asker(job){
     }
 }
 asker('coder')("Samantha");
-asker('teacher')("Azim")
+asker('teacher')("Azim");
+
+function dayUntilDeath(ageDeath){
+    message = " years until your death";
+    return  function(yearOfBirth){
+        console.log((ageDeath - (2018 - yearOfBirth)) + message);
+    }
+}
