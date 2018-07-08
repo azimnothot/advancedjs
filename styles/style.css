@@ -44,9 +44,41 @@ ul li{
   }
 
 #ser{
-    padding-left:35%;
+   margin-left:35%;
+}
+#ser:hover{
+    color: black;
+    font-size: 30.2px;
+}
+#ser:active{
+    color: blueviolet;
 }
 a{
     text-decoration: none;
     color: inherit
+}
+#hope{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 230, 51);
+    -webkit-box-shadow: 0px 8px 0px 4px rgba(46,125,0,0.87);
+    -moz-box-shadow: 0px 8px 0px 4px rgba(46,125,0,0.87);
+    box-shadow: 0px 8px 0px 4px rgba(46,125,0,0.87);
+    border-radius: 91px 91px 91px 91px;
+    -moz-border-radius: 91px 91px 91px 91px;
+    -webkit-border-radius: 91px 91px 91px 91px;
+    border: 0px solid #000000;
+    padding: 5%;
+    
+}
+#hope:active{
+    -webkit-box-shadow: 0px 0px 0px 4px rgb(161, 248, 31);
+    -moz-box-shadow: 0px 8px 0px 1px rgb(158, 230, 51);
+    box-shadow: 0px 3px 0px 1px rgb(158, 230, 51);
+    margin-top: 0.5%;
+    font-size: 39.7px;
+}
+#hope:hover{
+    background-color: rgb(161, 248, 31);
+    transform: translate(20px, 10px)
 }
